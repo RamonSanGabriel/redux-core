@@ -1,14 +1,14 @@
 import './App.css';
+import SelectStatus from './components/selectStatus';
+import Bank from './components/Bank';
 
 const App = () => {
   return (
     <div>
       <h1>React Redux</h1>
-      <select>
-        <option value="Success">Success</option>
-        <option value="Failed">Failed</option>
-        <option value="Error">Error</option>
-      </select>
+      <SelectStatus />
+
+      <Bank />
     </div>
   );
 };

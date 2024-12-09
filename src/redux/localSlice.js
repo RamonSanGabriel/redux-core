@@ -2,18 +2,22 @@ const localInitialState = {
   status: 'failed',
 };
 
+// Redux reducer function  is responsible for managing the state related to the localization (locale) of the application
 export const localReducer = (state = localInitialState, action) => {
   switch (action.type) {
-    case 'LOCAL_STATUS_CHANGED':
+    case 'locale/localAction':
       return { ...state, status: action.payload };
     default:
       return state;
   }
 };
 
-export const setStatus = (newStatus) => {
+export const localAction = (newStatus) => {
   return {
-    type: 'LOCAL_STATUS_CHANGED',
+    // Describes the type of action being dispatched
+    type: 'locale/localAction',
+
+    // Contain the actual data associated with the action
+    payload: newStatus,
   };
-  payload: 'newStatus';
 };
