@@ -1,5 +1,5 @@
 const localInitialState = {
-  status: 'failed',
+  status: 'Failed',
 };
 
 // Redux reducer function  is responsible for managing the state related to the localization (locale) of the application
