@@ -1,5 +1,5 @@
 import './App.css';
-import SelectStatus from './components/selectStatus';
+import SelectStatus from './components/SelectStatus';
 import Bank from './components/Bank';
 
 const App = () => {
@@ -7,7 +7,6 @@ const App = () => {
     <div>
       <h1>React Redux Fundamentals</h1>
       <SelectStatus />
-
       <Bank />
     </div>
   );
