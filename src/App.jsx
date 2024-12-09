@@ -5,7 +5,7 @@ import Bank from './components/Bank';
 const App = () => {
   return (
     <div>
-      <h1>React Redux</h1>
+      <h1>React Redux Fundamentals</h1>
       <SelectStatus />
 
       <Bank />
