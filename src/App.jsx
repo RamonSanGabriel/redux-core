@@ -10,7 +10,6 @@ const App = () => {
       <SelectStatus />
       <Bank />
       <Footer />
-      this is a footer
     </div>
   );
 };
