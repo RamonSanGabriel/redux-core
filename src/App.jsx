@@ -1,6 +1,7 @@
 import './App.css';
 import SelectStatus from './components/SelectStatus';
 import Bank from './components/Bank';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -8,6 +9,8 @@ const App = () => {
       <h1>React Redux Fundamentals</h1>
       <SelectStatus />
       <Bank />
+      <Footer />
+      this is a footer
     </div>
   );
 };
